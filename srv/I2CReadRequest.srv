@@ -1,0 +1,5 @@
+byte device_address
+byte register_address
+int read_num_bytes
+---
+byte[] data
