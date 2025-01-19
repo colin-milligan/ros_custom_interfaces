@@ -1,0 +1,7 @@
+uint8 device_address        # Byte address device
+uint8 register_address      # Byte address of register to write to
+
+MultiArrayLayout  layout    # specification of data layout
+uint8[]           data      # array of data to write.
+---
+bool success                # Indicate success of write

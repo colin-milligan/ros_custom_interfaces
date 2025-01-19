@@ -1,0 +1,6 @@
+uint8 device_address    # Byte address device
+uint8 register_address  # Byte address of register to read
+int16 num_bytes         # Number of bytes to read.
+---
+MultiArrayLayout  layout        # specification of data layout
+uint8[]           data          # array of data from register
