@@ -50,3 +50,12 @@ qtcreator-*
 
 # Catkin custom files
 CATKIN_IGNORE
+
+# Ignore ROS build files
+/install
+/build
+/logs
+
+# Ignore Pycharm files
+/.idea
+
