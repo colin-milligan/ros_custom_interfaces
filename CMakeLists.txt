@@ -11,8 +11,8 @@ find_package(rosidl_default_generators REQUIRED)
 
 
 rosidl_generate_interfaces(${PROJECT_NAME}
-  "msg/HardwareMonitor.msg",
-  "srv/I2CRead.srv",
+  "msg/HardwareMonitor.msg"
+  "srv/I2CRead.srv"
   "srv/I2CWrite.srv"
 )
 
