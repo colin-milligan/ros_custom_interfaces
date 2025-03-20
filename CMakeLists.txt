@@ -12,8 +12,8 @@ find_package(rosidl_default_generators REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/HardwareMonitor.msg",
-  "srv/i2c_read_request.srv",
-  "srv/i2c_write_request.srv"
+  "srv/I2CRead.srv",
+  "srv/I2CWrite.srv"
 )
 
 ament_export_dependencies(rosidl_default_runtime)
